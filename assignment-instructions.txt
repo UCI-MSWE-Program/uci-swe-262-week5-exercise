@@ -1,0 +1,8 @@
+This week, there is only one exercise, and it is to be done in Java.(*)
+
+Upload a couple of jar files to your Repl, one of them must be json-org.java, the jar file of the course project. Note that you should only upload the jars, not source files.
+
+Write a program called JarClasses.java (inside Week5 folder) that takes a jar file as command line argument and prints out a listing of all the classes inside, as well as the number of declared public, private, protected, and static methods for each, and the number of declared fields for each. The listing should be sorted alphabetically on the name of the classes. Your program should use reflection to get the required information about the methods and fields of each class.
+
+For example, the command line and output for json-java.jar is:
+$ java JarClasses json-java.jar
